@@ -1,17 +1,33 @@
 .header{
     position: fixed;
+    padding-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: gray;
+    height: 0%;
+    /* background-color: gray; */
     box-shadow: 0 0 3px #000;
     z-index: 20;
 }
 
 h1 {
-    margin: 25px auto 5px;
     width: 170px;
     height: 28px;
     background: url(../images/common.png) no-repeat 0 0;
     background-size: 300px 100px;
+    /* margin-right: 150px; */
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-p {
+    margin: 0 20px; 
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
 }
