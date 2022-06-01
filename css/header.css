@@ -1,0 +1,17 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    box-shadow: 0 0 3px #000;
+    z-index: 20;
+}
+
+h1 {
+    margin: 25px auto 5px;
+    width: 170px;
+    height: 28px;
+    background: url(../images/common.png) no-repeat 0 0;
+    background-size: 300px 100px;
+}
